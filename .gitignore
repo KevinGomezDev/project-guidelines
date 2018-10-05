@@ -28,6 +28,8 @@ yarn-error.log*
 dist/
 build/
 
+# Serverless generated files
+.serverless/
 
 ### SublimeText ###
 # cache files for sublime text
@@ -57,10 +59,11 @@ build/
 /.idea
 modules.xml
 *.ipr
+*.iml
 
 
 ### System Files ###
-.DS_Store
+*.DS_Store
 
 # Windows thumbnail cache files
 Thumbs.db
